@@ -29,25 +29,26 @@
         <main class="content">
             <section id="section1">
                 <h2>1. Von uns erfasste personenbezogene Daten</h2>
-                <h3>Kostenlose Nutzer</h3>
+                <h3>Alle Nutzer</h3>
                 <ul>
-                    <li><strong>Werbe-ID</strong>: Für personalisierte Werbung (AdMob)</li>
-                    <li><strong>Schwimmtrainingsdaten</strong>: Entfernung, Zeit, Rundendaten (nur lokal auf dem Gerät gespeichert)</li>
+                    <li><strong>Schwimmtrainingsdaten</strong>: Entfernung, Zeit, Rundendaten, Herzfrequenz, Schwimmstil, Kalorien (lokal auf dem Gerät gespeichert)</li>
                 </ul>
                 <h3>Abonnenten (Pro-Version)</h3>
                 <ul>
                     <li><strong>Apple ID</strong>: E-Mail, eindeutige Kennung</li>
-                    <li><strong>Abonnementinformationen</strong>: Abonnementstatus, Verlängerungsdatum</li>
-                    <li><strong>Schwimmtrainingsdaten</strong>: Entfernung, Zeit, Rundendaten (Cloud-Synchronisierung)</li>
+                    <li><strong>Abonnementinformationen</strong>: Abonnementstatus, Verlängerungsdatum, Transaktions-ID</li>
+                    <li><strong>Profilinformationen</strong>: Spitzname, Ländercode, Schwimmklasse</li>
+                    <li><strong>Schwimmtrainingsdaten</strong>: Entfernung, Zeit, Rundendaten, Herzfrequenz, Schwimmstil, Kalorien (Cloud-Synchronisierung)</li>
+                    <li><strong>Schwimmbad-Informationen</strong>: Schwimmbadname, Adresse (in Trainingsaufzeichnungen enthalten)</li>
                 </ul>
             </section>
             <section id="section2">
                 <h2>2. Zweck der Verwendung personenbezogener Daten</h2>
                 <ul>
-                    <li>Apple Sign-In-Authentifizierung (Abonnenten)</li>
-                    <li>Abonnementverwaltung</li>
+                    <li>Apple Sign-In-Authentifizierung und Identitätsprüfung (Abonnenten)</li>
+                    <li>Abonnementverwaltung und Zahlungsabwicklung</li>
                     <li>Cloud-Datensynchronisierung (Abonnenten)</li>
-                    <li>Werbeanzeige (kostenlose Nutzer)</li>
+                    <li>Verarbeitung von Nutzerfeedback zur Serviceverbesserung</li>
                 </ul>
             </section>
             <section id="section3">
@@ -67,11 +68,15 @@
                         </tr>
                         <tr>
                             <td>Schwimmdaten (Abonnenten)</td>
-                            <td>Sofortige Löschung auf Anfrage des Nutzers</td>
+                            <td>Deaktivierung und Löschung innerhalb von 30 Tagen nach Kontolöschungsanfrage</td>
                         </tr>
                         <tr>
                             <td>Apple ID-Informationen</td>
-                            <td>Sofortige Löschung nach Abonnementkündigung</td>
+                            <td>Deaktivierung und Löschung innerhalb von 30 Tagen nach Kontolöschungsanfrage</td>
+                        </tr>
+                        <tr>
+                            <td>Profilinformationen</td>
+                            <td>Deaktivierung und Löschung innerhalb von 30 Tagen nach Kontolöschungsanfrage</td>
                         </tr>
                         <tr>
                             <td>Abonnement- und Zahlungsaufzeichnungen</td>
@@ -87,7 +92,8 @@
                 <h3>Löschverfahren</h3>
                 <ul>
                     <li><strong>Lokale Daten</strong>: Automatisch vom iOS-System beim Löschen der App gelöscht</li>
-                    <li><strong>Schwimmdaten</strong>: Innerhalb von 5 Tagen nach Nutzeranfrage gelöscht</li>
+                    <li><strong>Cloud-Daten</strong>: Deaktivierung nach Kontolöschungsanfrage und Löschung innerhalb von 30 Tagen (ausgenommen gesetzlich aufbewahrungspflichtige Daten)</li>
+                    <li><strong>Apple ID-Informationen</strong>: Beendigung der Authentifizierungssitzung und Löschung innerhalb von 30 Tagen nach Kontolöschungsanfrage</li>
                     <li><strong>Löschmethode</strong>: Dauerhafte Löschung durch Methoden, die eine Wiederherstellung elektronischer Dateien verhindern</li>
                 </ul>
             </section>
@@ -109,11 +115,6 @@
                         <tr>
                             <td>Google LLC</td>
                             <td>Firebase Firestore (Cloud-Speicher)</td>
-                            <td>Vereinigte Staaten</td>
-                        </tr>
-                        <tr>
-                            <td>Google LLC</td>
-                            <td>AdMob (Werbung)</td>
                             <td>Vereinigte Staaten</td>
                         </tr>
                         <tr>
@@ -156,9 +157,9 @@
         </main>
     </div>
     <footer class="footer">
-        <p>Ankündigungsdatum: 26. Januar 2026</p>
-        <p>Inkrafttretensdatum: 26. Januar 2026</p>
-        <p style="margin-top: 16px;">Diese Datenschutzerklärung ist ab dem 26. Januar 2026 gültig und wird 7 Tage vor Umsetzung bei Änderungen von Gesetzen oder Richtlinien angekündigt.</p>
+        <p>Ankündigungsdatum: 27. März 2026</p>
+        <p>Inkrafttretensdatum: 27. März 2026</p>
+        <p style="margin-top: 16px;">Diese Datenschutzerklärung ist ab dem 27. März 2026 gültig und wird 7 Tage vor Umsetzung bei Änderungen von Gesetzen oder Richtlinien angekündigt.</p>
     </footer>
     <script src="common.js"></script>
 </body>

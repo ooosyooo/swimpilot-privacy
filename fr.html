@@ -29,25 +29,26 @@
         <main class="content">
             <section id="section1">
                 <h2>1. Informations Personnelles que Nous Collectons</h2>
-                <h3>Utilisateurs Gratuits</h3>
+                <h3>Tous les Utilisateurs</h3>
                 <ul>
-                    <li><strong>Identifiant Publicitaire</strong> : Pour les annonces personnalisées (AdMob)</li>
-                    <li><strong>Données d'Entraînement de Natation</strong> : Distance, temps, données de tours (stockées uniquement sur l'appareil)</li>
+                    <li><strong>Données d'Entraînement de Natation</strong> : Distance, temps, données de tours, fréquence cardiaque, style de nage, calories (stockées localement sur l'appareil)</li>
                 </ul>
                 <h3>Utilisateurs Abonnés (Version Pro)</h3>
                 <ul>
-                    <li><strong>Apple ID</strong> : Email, identifiant unique</li>
-                    <li><strong>Informations d'Abonnement</strong> : Statut d'abonnement, date de renouvellement</li>
-                    <li><strong>Données d'Entraînement de Natation</strong> : Distance, temps, données de tours (synchronisation cloud)</li>
+                    <li><strong>Apple ID</strong> : E-mail, identifiant unique</li>
+                    <li><strong>Informations d'Abonnement</strong> : Statut d'abonnement, date de renouvellement, ID de transaction</li>
+                    <li><strong>Informations de Profil</strong> : Pseudo, code pays, classe de nageur</li>
+                    <li><strong>Données d'Entraînement de Natation</strong> : Distance, temps, données de tours, fréquence cardiaque, style de nage, calories (synchronisation cloud)</li>
+                    <li><strong>Informations de Piscine</strong> : Nom de la piscine, adresse (incluses dans les enregistrements d'entraînement)</li>
                 </ul>
             </section>
             <section id="section2">
                 <h2>2. Finalité de l'Utilisation des Informations Personnelles</h2>
                 <ul>
-                    <li>Authentification Apple Sign-In (utilisateurs abonnés)</li>
-                    <li>Gestion des abonnements</li>
+                    <li>Authentification Apple Sign-In et vérification d'identité (utilisateurs abonnés)</li>
+                    <li>Gestion des abonnements et traitement des paiements</li>
                     <li>Synchronisation des données cloud (utilisateurs abonnés)</li>
-                    <li>Affichage de publicités (utilisateurs gratuits)</li>
+                    <li>Traitement des retours utilisateurs pour l'amélioration du service</li>
                 </ul>
             </section>
             <section id="section3">
@@ -67,11 +68,15 @@
                         </tr>
                         <tr>
                             <td>Données de Natation (Utilisateurs Abonnés)</td>
-                            <td>Supprimées immédiatement sur demande de l'utilisateur</td>
+                            <td>Désactivation et suppression dans les 30 jours suivant la demande de suppression de compte</td>
                         </tr>
                         <tr>
                             <td>Informations Apple ID</td>
-                            <td>Supprimées immédiatement après l'annulation de l'abonnement</td>
+                            <td>Désactivation et suppression dans les 30 jours suivant la demande de suppression de compte</td>
+                        </tr>
+                        <tr>
+                            <td>Informations de Profil</td>
+                            <td>Désactivation et suppression dans les 30 jours suivant la demande de suppression de compte</td>
                         </tr>
                         <tr>
                             <td>Enregistrements d'Abonnement et de Paiement</td>
@@ -87,7 +92,8 @@
                 <h3>Processus de Suppression</h3>
                 <ul>
                     <li><strong>Données Locales</strong> : Supprimées automatiquement par le système iOS lors de la suppression de l'application</li>
-                    <li><strong>Données de Natation</strong> : Supprimées dans un délai de 5 jours sur demande de l'utilisateur</li>
+                    <li><strong>Données Cloud</strong> : Désactivation après demande de suppression de compte et suppression dans les 30 jours (sauf données soumises à obligation légale de conservation)</li>
+                    <li><strong>Informations Apple ID</strong> : Fin de session d'authentification et suppression dans les 30 jours suivant la demande de suppression de compte</li>
                     <li><strong>Méthode de Suppression</strong> : Suppression permanente par des méthodes empêchant la récupération de fichiers électroniques</li>
                 </ul>
             </section>
@@ -109,11 +115,6 @@
                         <tr>
                             <td>Google LLC</td>
                             <td>Firebase Firestore (Stockage Cloud)</td>
-                            <td>États-Unis</td>
-                        </tr>
-                        <tr>
-                            <td>Google LLC</td>
-                            <td>AdMob (Publicité)</td>
                             <td>États-Unis</td>
                         </tr>
                         <tr>
@@ -156,9 +157,9 @@
         </main>
     </div>
     <footer class="footer">
-        <p>Date d'Annonce : 26 janvier 2026</p>
-        <p>Date d'Entrée en Vigueur : 26 janvier 2026</p>
-        <p style="margin-top: 16px;">Cette Politique de Confidentialité est effective à partir du 26 janvier 2026 et sera annoncée 7 jours avant sa mise en œuvre lors de modifications des lois ou des politiques.</p>
+        <p>Date d'Annonce : 27 mars 2026</p>
+        <p>Date d'Entrée en Vigueur : 27 mars 2026</p>
+        <p style="margin-top: 16px;">Cette Politique de Confidentialité est effective à partir du 27 mars 2026 et sera annoncée 7 jours avant sa mise en œuvre lors de modifications des lois ou des politiques.</p>
     </footer>
     <script src="common.js"></script>
 </body>
